@@ -1,0 +1,14 @@
+Package: intervals
+Title: Large-Margin Multi-Cut Interval Estimation
+Version: 0.0.0.9000
+Maintainer: Patrick Kimes <patrick.kimes@gmail.com>
+Author: Patrick Kimes
+Description: Solve generalized large-margin classification problem to simultaneously fit multiple cuts for conditional class probability estimation. 
+Depends: R (>= 3.2.2), Rcpp (>= 0.10.6), RcppArmadillo
+License: MIT + file LICENSE
+LazyData: true
+Suggests: testthat, knitr
+LinkingTo: Rcpp, RcppArmadillo
+Imports: Rcpp, RcppArmadillo
+VignetteBuilder: knitr
+RcppModules: kpegasos
