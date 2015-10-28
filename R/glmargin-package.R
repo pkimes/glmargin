@@ -1,11 +1,11 @@
-#' glmc
+#' glmargin
 #'
 #' Package for solving a generaized class of binary learning problems encompassing
 #' hard and soft classification using large-margin classifiers.
 #'
-#' @name glmc
+#' @name glmargin
 #' @docType package
-#' @useDynLib glmc
+#' @useDynLib glmargin
 #' @exportPattern "^[[:alpha:]]+"
 #' @import RcppArmadillo methods
 #' @importFrom Rcpp loadModule

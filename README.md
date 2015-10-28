@@ -1,4 +1,4 @@
-`glmc`
+`glmargin`
 ---
 
 This package contains implementations of the method described in [this arXiv preprint](http://arxiv.org/abs/1411.5260).

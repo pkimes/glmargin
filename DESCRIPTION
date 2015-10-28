@@ -1,4 +1,4 @@
-Package: glmc
+Package: glmargin
 Title: Generalized Large-Margin Classifiers for Multi-Cut Interval Estimation
 Version: 0.0.0.90
 Maintainer: Patrick K. Kimes <patrick.kimes@gmail.com>
