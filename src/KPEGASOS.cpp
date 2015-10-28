@@ -176,7 +176,7 @@ vec KPEGASOS::CalcHinges(vec py) {
 //compute test error for new x, y
 vec KPEGASOS::boundaries() {
     vec bounds = vec(K);
-    for (k = 0; k < K; ++K) {
+    for (k = 0; k < K; ++k) {
         bounds[k] = log(py[k] / (1.0 - py[k]));
     }
     return bounds;
