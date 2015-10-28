@@ -1,11 +1,11 @@
-#' intervals.
+#' glmc
 #'
 #' Package for solving a generaized class of binary learning problems encompassing
 #' hard and soft classification using large-margin classifiers.
 #'
-#' @name intervals
+#' @name glmc
 #' @docType package
-#' @useDynLib intervals
+#' @useDynLib glmc
 #' @exportPattern "^[[:alpha:]]+"
 #' @import RcppArmadillo methods
 #' @importFrom Rcpp loadModule
