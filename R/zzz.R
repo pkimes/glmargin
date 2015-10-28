@@ -11,7 +11,20 @@
 #' \item{\code{Solve():}}{solve the problem}
 #' \item{\code{boundaries():}}{return interval boundaries}
 #' }
-#' 
-#' @name kpegasos-module
+#'
+#' @name KPEGASOS
+#' @rdname kpegasos-module
 #' @author Patrick Kimes
 loadModule("kpegasos", TRUE)
+
+
+#' Rcpp KPEGASOS object
+#'
+#' S4 class for fitting KPEGASOS learning problem to training data
+#'
+#' @exportClass Rcpp_KPEGASOS
+#' @name Rcpp_KPEGASOS-class
+#' @rdname Rcpp_KPEGASOS-class
+#' @aliases Rcpp_KPEGASOS-class
+#' @author Patrick Kimes
+NULL

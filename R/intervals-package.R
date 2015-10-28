@@ -7,7 +7,7 @@
 #' @docType package
 #' @useDynLib intervals
 #' @exportPattern "^[[:alpha:]]+"
-#' @import RcppArmadillo
-#' @importFrom Rcpp evalCpp
+#' @import RcppArmadillo methods
+#' @importFrom Rcpp loadModule
 #' @author Patrick Kimes \email{patrick.kimes@@gmail.com}
 NULL
